@@ -1,0 +1,61 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  background: url(https://cdn-images-1.medium.com/max/2000/1*QnNtiQYyxTrx3CIEPkVYzg.jpeg);
+  background-size: cover;
+
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+header{
+  width:100%;
+  height:80%;
+
+}
+
+.btn.btn-dark {
+  font-family: times;
+  font-weight: 100;
+  background-color: rgb(29, 29, 29);
+}
+
+.btn.btn-dark:hover {
+  font-family: times;
+  font-weight: 300;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.75s;
+  transform: scale(1.2);
+}
+
+.text {
+  margin-bottom: 50px;
+  margin-top: 25%;
+  font-size: 2rem;
+  color:rgb(255, 255, 255) ;
+}
+footer{
+  width:100%;
+  height:100%;
+  background: url(https://wallpaperscraft.com/image/guy_anime_computer_tears_sadness_room_96990_1920x1080.jpg);
+  background-size: cover;
+}
+#video,.lead{
+    display: flex;
+    text-align: left;
+    align-self: flex-start;
+    font-weight: 500;
+}
+.part2{
+  margin-top:20%;
+}
+.footer {
+  margin-top: 250px;
+  font-weight: 900;
+  /* color:white; */
+  color: rgb(0, 0, 0);
+}
